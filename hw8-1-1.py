@@ -10,7 +10,7 @@ tally1 = input("How many free throws were made? ")
 tally2 = input("How many twos were made? ")
 tally3 = input("How many threes were made? ")
 
-print(score(tally1, tally2, tally3))
+print("The player scored " + str(score(tally1, tally2, tally3)) + " Points.")
 
 print(score(1, 1, 1) == 6)
 print(score(3, 6, 2) == 21)
